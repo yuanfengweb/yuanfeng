@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="banner3">
+      <div class="top">
+        <div class="topItem" onclick="onClickHome()">Home</div>
+        <div class="topItem" onclick="onClickProducts()">Prducts</div>
+        <div class="topItem" onclick="onClickContact()">Contact</div>
+      </div>
+    </div>
+    <div class="pContent">
+      <div style="margin: 50px auto; text-align: center">
+        <div class="title1">About us</div>
+      </div>
+      <div class="text1">High quality丨Competitive Price丨Outstanding Service</div>
+
+      <div class="card card1">
+        <div class="cardText1">
+          BASIC SERVICE<br />
+          1.FREE SAMPLES AND FREE SAMPLE ANALYSIS <br />
+          2.24 HOURS ONLINE AND QUICK RESPONSE<br />
+          3.TAKE YOU BACK TO OUR FACTORY<br />
+          4.MANY DIFFERENT DESIGNS FOR YOU TO CHOOSE<br />
+          5.SHORT PRODUCTION LEAD TIME AND SHORT DELIVERY TIME<br />
+        </div>
+
+      </div>
+      <div class="card card2">
+        <div class="cardText2">
+          BASIC SERVICE<br />
+          1.FREE SAMPLES AND FREE SAMPLE ANALYSIS <br />
+          2.24 HOURS ONLINE AND QUICK RESPONSE<br />
+          3.TAKE YOU BACK TO OUR FACTORY<br />
+          4.MANY DIFFERENT DESIGNS FOR YOU TO CHOOSE<br />
+          5.SHORT PRODUCTION LEAD TIME AND SHORT DELIVERY TIME<br />
+        </div>
+
+      </div>
+      <div style="margin: 20px auto; text-align: center">
+        <div class="title1">Contact us</div>
+      </div>
+      <div class="yyy">
+        <div style="text-align: center;">
+          <img height="200" src="./imgs/c1.png" alt="">
+        </div>
+        <div style="text-align: center;">
+          <img height="200" src="./imgs/c2.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="title2">Our Service</div>
+      <div class="flex1" style="margin-top: 30px">
+        <img src="./imgs/p1.png" height="30" alt="" />
+        <img src="./imgs/p2.png" height="30" alt="" />
+        <img src="./imgs/p3.png" height="30" alt="" />
+        <img src="./imgs/p4.png" height="30" alt="" />
+        <img src="./imgs/p5.png" height="30" alt="" />
+        <img src="./imgs/p6.png" height="30" alt="" />
+      </div>
+    </div>
+  </body>
+  <script>
+    function onClickProducts() {
+      history.pushState("", "", "/product");
+      window.location.reload();
+    }
+    function onClickHome() {
+      history.pushState("", "", "/");
+      window.location.reload();
+    }
+    function onClickContact() {
+      history.pushState("", "", "/contact");
+      window.location.reload();
+    }
+  </script>
+</html>

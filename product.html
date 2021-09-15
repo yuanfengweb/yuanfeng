@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="banner2">
+      <div class="top">
+        <div class="topItem" onclick="onClickHome()">Home</div>
+        <div class="topItem" onclick="onClickProducts()">Prducts</div>
+        <div class="topItem" onclick="onClickContact()">Contact</div>
+      </div>
+    </div>
+    <div class="pContent">
+      <div class="pItem">
+        <img src="./imgs/a1.png" width="100%" alt="" />
+        <div class="flex1 xxx">
+          <div class="text6">
+            WIDTH: 44/45"&58/60" <br />
+            COMPOSITION: 100%Polyester <br />
+            WEIGHT: 140-170GSM <br />
+            price: 0.8-1.12usd/m <br />
+          </div>
+          <div class="text6">
+            USE: Southeast Asian dress, <br />
+            Malaysian school uniform, <br />
+            Muslim abaya fabric, <br />
+            rban
+          </div>
+        </div>
+      </div>
+      <div class="pItem">
+        <img src="./imgs/a2.png" width="100%" alt="" />
+        <div class="flex1 xxx">
+          <div class="text6">
+            WIDTH: 44/45"&58/60" <br />
+            WEIGHT: 165gsm <br />
+            COMPOSITION: 100%polyster <br />
+            price: 0.95-1.15usd/m <br />
+          </div>
+          <div class="text6">
+            USE: Southeast Asian clothing fabrics,<br />
+            Indonesian clothing
+          </div>
+        </div>
+      </div>
+      <div class="pItem">
+        <img src="./imgs/a3.png" width="100%" alt="" />
+        <div class="flex1 xxx">
+          <div class="text6">
+            WIDTH: 44/45"&58/60" <br />
+            WEIGHT: 128GSM <br />
+            COMPOSITION: 100%Polyester <br />
+            price: 0.81/1.05usd/m <br />
+          </div>
+          <div class="text6">
+            USE: Southeast Asian clothing, <br />
+            Malaysian men's traditional clothing
+          </div>
+        </div>
+      </div>
+      <div class="pItem">
+        <img src="./imgs/a4.png" width="100%" alt="" />
+        <div class="flex1 xxx">
+          <div class="text6">
+            WIDTH: 58/60" <br />
+            WEIGHT: 2.5oz-14oz <br />
+            COMPOSITION: cotton <br />
+            FOB/price/: $1.5-2.8 <br />
+          </div>
+          <div class="text6">
+            USE: denim jacket、 <br />
+            jeans、shirt、dress
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="title2">Our Service</div>
+      <div class="flex1" style="margin-top:30px;">
+        <img src="./imgs/p1.png" height="30" alt="">
+        <img src="./imgs/p2.png" height="30" alt="">
+        <img src="./imgs/p3.png" height="30" alt="">
+        <img src="./imgs/p4.png" height="30" alt="">
+        <img src="./imgs/p5.png" height="30" alt="">
+        <img src="./imgs/p6.png" height="30" alt="">
+      </div>
+    </div>
+  </body>
+  <script>
+    function onClickProducts() {
+      history.pushState("", "", "/product");
+      window.location.reload();
+    }
+    function onClickHome() {
+      history.pushState("", "", "/");
+      window.location.reload();
+    }
+    function onClickContact() {
+      history.pushState("", "", "/contact");
+      window.location.reload();
+    }
+  </script>
+</html>
