@@ -40,12 +40,13 @@
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  padding: 24px 48px;
 }
 
 .topItem{
     color:#fff;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 20px;
     margin:0 24px;
 }
 .title1{
@@ -80,6 +81,11 @@
     justify-content: space-around;
     align-items: center;
 }
+.flex11{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
 .text2{
     font-size: 18px;
     text-align: center;
@@ -100,6 +106,12 @@
     align-items: center;
     flex-direction: column;
 }
+.flex4{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
 .box2{
     width:244px;
     height:244px;
@@ -113,20 +125,28 @@
 }
 .title2{
     color:#c4c4c4;
-    font-size: 16px;
+    font-size: 20px;
+    border-bottom: 1px red solid;
+    display: inline-flex;
+    line-height: 1.5;
+    font-weight: bold;
 }
 .text5{
     color:#c4c4c4;
 }
 .btn{
-
+    background-color: #7f7b7b;
+    border-radius: 16px;
+    padding:4px 8px;
+    color:#000;
+    font-size: 14px;
 }
 
 .pContent{
     max-width: 1200px;
 
     margin:0 auto;
-    padding:100px 0;
+    padding:0px 0px 100px;
 }
 
 
@@ -184,4 +204,20 @@ margin-top:50px;
 
 .yyy{
     background-color: #e5e5e5;
+    padding:30px;
+}
+
+
+.text4{
+    font-size: 14px;
+    color:#6a6a6a;
+    line-height: 1.5;
+}
+.text3{
+    font-size: 16px;
+}
+.title3{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
 }
